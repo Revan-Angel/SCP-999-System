@@ -24,7 +24,7 @@ local MODULE = {
 	version_url = "https://raw.githubusercontent.com/Revan-Angel/SCP-999-System/refs/heads/main/lua/guthscp/modules/revscp999/main.lua",
     dependencies = {
 		base = "2.4.0",
-		guthscpkeycard = "2.1.6",
+		guthscpkeycard = "optional:2.1.6",
 	},
     requires = {
 		["server.lua"] = guthscp.REALMS.SERVER,
